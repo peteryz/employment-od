@@ -7,11 +7,11 @@ Therefore, data consolidation for transportation systems provides basis for evid
 
 ## Data Description
 
-Each instance in our dataset contains commuting time and distance information for one OD pair. We randomly sampled 100,000 OD pairs from the U.S. Census Longitudinal Employer-Household Dynamics Dataset (1,000 data points each for the 100 most populated urban areas, the list or urban areas with the corresponding indices can be found under `Urban_Area_ID.csv`.
+Each instance in our dataset contains commuting time and distance information for one OD pair. We randomly sampled 100,000 OD pairs from the U.S. Census Longitudinal Employer-Household Dynamics Dataset (1,000 data points each for the 100 most populated urban areas, the list or urban areas with the corresponding indices can be found under `metadata/Urban_Area_ID.csv`.
 In particular, each instance contains travel time and distance information for five different travel modes, as documented in Table 1. 
 ![image](https://user-images.githubusercontent.com/14277518/124179047-3da7ac80-da80-11eb-864c-876ea8c7768e.png)
 
-The definition of columns of the dataset is provided in Table 2, with sample instances of the dataset shown in Table 3. The data files are organized as follows: `data/Duration_M1M5_{Urban_Area_Index=i}.csv` and `data/Distance_M1M5_{Urban_Area_Index=i}.csv` each contains the travel time and travel duration information of $1,000$ OD pairs within the $i$th urban area.
+The definition of columns of the dataset is provided in Table 2, with sample instances of the dataset shown in Table 3. The data files are organized as follows: `data/duration/Duration_M1M5_{Urban_Area_Index=i}.csv` and `data/distance/Distance_M1M5_{Urban_Area_Index=i}.csv` each contains the travel time and travel duration information of $1,000$ OD pairs within the $i$th urban area.
 ![image](https://user-images.githubusercontent.com/14277518/124179197-79db0d00-da80-11eb-9cd4-486a2eb9ae22.png)
 ![image](https://user-images.githubusercontent.com/14277518/124179218-82334800-da80-11eb-8997-427a04ffe4a2.png)
 
