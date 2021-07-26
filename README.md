@@ -1,5 +1,9 @@
 # Commuting Distances and Times under Different Transportation Modes for U.S. Households
 
+## Citation
+
+U.S. Household Commuting Dataset and Transportation Fairness (under review), Hao Hao, Hai Wang, Peter Zhang. 
+
 ## Summary
 
 Efficient and fair transportation planning creates opportunities and equity for jobs, health care, and education.
